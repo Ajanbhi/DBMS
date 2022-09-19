@@ -1,0 +1,33 @@
+create table student67(st_name varchar(20),st_id int, GPA float);
+insert into student 67('shashwat','11','9.08');
+insert into student 67('shashwat','11','9.08');
+insert into student 67('shashwat','11','9.08');
+insert into student 67('shashwat','11','9.08');
+
+
+
+alter table table_name
+ADD DateOfBirth date;
+ALTER TABLE table_name
+ALTER COLUMN column_name datatype;
+
+
+
+update student67            //putting values in new column addded
+set dob='10-FEB-2003'
+where st_id=11;
+update student67
+set Dob='25-nov-2005'
+where st_id='12';
+select * from Student67 order by GPA desc;    //descending order
+select * from Student67 order by ST_NAME ;   // ascending order
+
+
+
+select st_name || GPA from Student67 ;
+select st_name || GPA AS "std_detail" from Student67  ;
+select st_name ||'secured' || GPA AS "std_detail" from Student67  ;    /// we are saving the final detail new column taht will give the final detail
+
+
+alter table student67
+add salary int;
