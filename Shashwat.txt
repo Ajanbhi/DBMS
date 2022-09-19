@@ -31,3 +31,16 @@ select st_name ||'secured' || GPA AS "std_detail" from Student67  ;    /// we ar
 
 alter table student67
 add salary int;
+
+
+
+update student67
+set salary='100000'
+where st_id='12';
+update student67
+set salary='2000'
+where st_id='14';
+
+
+
+select st_name "Name", salary*12 "annual salary" from student67    // giving annual salary and anme of of student in diffrent column by definning new column name as NAME and annnaul salry
