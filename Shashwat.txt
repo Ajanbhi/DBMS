@@ -1,8 +1,5 @@
 create table student67(st_name varchar(20),st_id int, GPA float);
-insert into student 67('shashwat','11','9.08');
-insert into student 67('shashwat','11','9.08');
-insert into student 67('shashwat','11','9.08');
-insert into student 67('shashwat','11','9.08');
+insert into student67 values('shashwat','11','9.08');
 
 
 
